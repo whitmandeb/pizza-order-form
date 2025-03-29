@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Pronto!</title>
+  </head>
+  <body>
+    <h1>Pizza Order Form</h1>
+
+    <form>
+      <label for="fname">First Name</label><br />
+      <input type="text" name="fname" id="fname" /><br />
+      <label for="lname">Last Name</label><br />
+      <input type="text" name="lname" id="lname" />
+    </form>
+    
+
+    <h2>Pizza Size</h2>
+
+    <form>
+        <label for="pizza size"></label>
+        <select name="pizza size" id="pizza size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+    </select>
+    
+
+    <h2>Toppings</h2>
+
+    <input type="checkbox" name="toppings" id="toppings"> 
+    <label for="toppings">Pepperoni</label><br>
+    <input type="checkbox" name="toppings" id="toppings">
+    <label for="mushrooms">Mushrooms</label><br>
+    <input type="checkbox" name="toppings" id="toppings">
+    <label for="extra cheese">Extra Cheese</label><br>
+    <br>
+
+
+    <h2>Delivery Instructions</h2>
+<textarea name="" id=""></textarea>
+<br>
+<br>
+<input type="submit" value="Submit">
+<br>
+<br>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Toppings</th>
+        <th>Special Instructions</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Large</td>
+        <td>Pepperoni, Mushrooms</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Jacob</td>
+        <td>Medium</td>
+        <td>Pepperoni, Extra Cheese</td>
+        <td>Please actually put extra cheese!</td>
+      </tr>
+      <tr>
+        <td>Jingleheimer</td>
+        <td>Large</td>
+        <td>Mushrooms</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Schmidt</td>
+        <td>Small</td>
+        <td>Cheese</td>
+        <td>None</td>
+      </tr>
+    </table>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </body>
+</html>
